@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(name='openwrt-remote-manager',
-      version='1.2',
+      version='1.3',
       description='A Python module for remotely managing an OpenWRT instance',
       author='Amr Hassan',
       author_email='amr.hassan@gmail.com',
