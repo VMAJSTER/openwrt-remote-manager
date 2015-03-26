@@ -5,15 +5,15 @@ from fixtures import *
 
 def test_retrieving_correct_user_names():
     # Default out-of-the-box users
-    assert set(manager.users.usernames) == {'root', 'daemon', 'network', 'ftp', 'nobody'}
+    assert set(manager.users.user_names) == {'root', 'daemon', 'network', 'ftp', 'nobody'}
 
 
 def test_creating_and_deleting_users():
     name = 'test_user'
     manager.users.create_user(name)
-    assert name in manager.users.usernames
+    assert name in manager.users.user_names
     manager.users.delete_user(name)
-    assert name not in manager.users.usernames
+    assert name not in manager.users.user_names
 
 
 def test_changing_and_checking_passwords():
