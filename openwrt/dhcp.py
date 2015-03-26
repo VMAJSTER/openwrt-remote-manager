@@ -1,5 +1,6 @@
 import collections
 
+
 class DHCPLease(collections.namedtuple('DHCPLease',
                                                 field_names=('timestamp', 'ip4_address', 'mac_address',))):
     """
@@ -36,6 +37,7 @@ class DHCPLease(collections.namedtuple('DHCPLease',
         values = self._to_dict()
         values.update(kwargs)
         return DHCPLease.from_dict(values)
+
 
 class DHCPManager:
     """
