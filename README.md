@@ -1,4 +1,4 @@
-[![Latest Version](https://pypip.in/version/openwrt-remote-manager/badge.svg?text=pypi&style=flat)](https://pypi.python.org/pypi/openwrt-remote-manager/)
+[![Latest Version](https://img.shields.io/pypi/v/openwrt-remote-manager.svg?label=pypi&style=flat)](https://pypi.python.org/pypi/openwrt-remote-manager/)
 
 # OpenWRT Remote Manager #
 
